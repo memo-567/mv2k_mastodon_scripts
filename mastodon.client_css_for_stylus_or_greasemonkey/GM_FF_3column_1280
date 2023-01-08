@@ -1,0 +1,32 @@
+@media (min-width:1024px) {
+	p {margin:0;padding:0;}
+    .account__header__image {height:75px;}
+    .account__header__fields dd, .account__header__fields dt {padding: 2px 15px;}
+    .account__header__content p {margin-bottom:10px;}
+    .columns-area__panels {width:100vw;min-width:100vw;}
+    .columns-area__panels__pane--compositional, .compose-panel {min-width:23vw;width:23vw;}
+    .columns-area__panels__pane__inner {min-width:inherit;width:inherit;}
+    .columns-area__panels__pane--navigational {min-width:17vw;width:17vw;}
+    .compose-form {padding:0;}
+    .columns-area__panels__main {padding:0 5px;max-width:59%;}
+    .autosuggest-textarea {padding:0;height:400px;background-color:#e7e7e7;}
+	.compose-form .autosuggest-textarea__textarea, .spoiler-input__input {background:#e7e7e7;}
+    .drawer    {width:20vw;}
+    .navigation-panel {width:15vw;}
+    .navigation-panel a {padding:5px 10px;}
+    .columns-area__panels__main {width:100%;}
+    .fa {top:4px;}
+    .fa.active {top:4px;}
+    .fa-search {top:18px;}
+    .fa-times-circle {margin-top: 3px;}
+    .search__input {padding:5px;}
+    .status__content p {margin-bottom:5px;}
+    .columns-area--mobile .status .audio-player, .columns-area--mobile .status .media-gallery, .columns-area--mobile .status .video-player, .columns-area--mobile .status__action-bar {margin-top:3px;}
+    
+    /* typography */
+    .account__header__content {font-size:12px;font-style: italic;}
+    body.system-font {font-size:12px;line-height:14px;}
+    .columns-area__panels__pane__inner, .compose-panel, .getting-started__footer p span {font-size:10px;line-height:10px}
+    .autosuggest-textarea__textarea, .compose-form, .navigation-bar__profile, .search__input {font-size:14px;line-height:16px;}
+    .status__content__text, .status__content__text--visible p {font-size:14px;line-height:16px;}
+    }
